@@ -1,6 +1,7 @@
-import React from 'react';
+import { useState } from 'react';
 
 function NavFirst() {
+    const [count, setCount] = useState(0); 
   return (
     // Main container, full width with a dark background
     <div className='w-full h-10 bg-gray-800 flex items-center justify-center'>
