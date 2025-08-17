@@ -6,7 +6,7 @@ import MainSidebar from './mainSec/mainSidebar.jsx';
 const MainContent = () => {
     return (
         <div>
-            <div className='flex flex-col w-[70%] lg:flex-row gap-4'>
+            <div className='flex flex-row w-[70%] lg:flex-row gap-4'>
                 <MainFirst />
                 <MainSecond />
             </div>
