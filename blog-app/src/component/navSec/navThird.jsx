@@ -19,7 +19,7 @@ function NavThird() {
           {/* World Dropdown Menu */}
           <li className="list-none relative group">
             {/* The main link for the dropdown */}
-            <a href="#" className="font-medium hover:text-gray-300 transition-colors">World</a>
+            <a href="#" className="font-medium hover:text-gray-300 transition-colors">World </a>
             
             {/* The dropdown sub-menu. It's hidden by default and appears on hover. */}
             <ul className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 bg-gray-700 shadow-xl rounded-xl overflow-hidden hidden group-hover:block transition-all duration-300 ease-in-out z-50">

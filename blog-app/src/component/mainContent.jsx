@@ -5,12 +5,18 @@ import MainSidebar from './mainSec/mainSidebar.jsx';
 
 const MainContent = () => {
     return (
-        <div>
+        <div className='relative'>
             <div className='flex flex-row w-[70%] lg:flex-row gap-4'>
                 <MainFirst />
+                
+            </div>
+            <div >
                 <MainSecond />
             </div>
-            <MainSidebar />
+            <div>
+                <MainSidebar />
+            </div>
+                
         </div>
     )
 }
