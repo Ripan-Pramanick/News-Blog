@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     host: true, // This allows Vite to listen on all network interfaces
     // Add your ngrok host to the allowedHosts array
-    allowedHosts: ['244f1bf4863b.ngrok-free.app'],
+    allowedHosts: ['6fa4ff4ec0f3.ngrok-free.app'],
   },
 });
