@@ -42,14 +42,14 @@ const socialLinks = [
 
 const FollowSideBar = () => {
   return (
-    <div className='w-full max-w-sm mx-auto bg-white  overflow-hidden'>
+    <div className='w-full max-w-md mx-auto bg-white mb-5  overflow-hidden rounded-md shadow-sm'>
       {/* Sidebar Header */}
       <div className='relative w-full h-full bg-white p-6'>
-                <div>
-                    <span className="text-2xl font-semibold  rounded-t-2xl text-white py-1 px-1.5 mb-[1px] bg-gray-700">Follow US</span>
-                </div>
-                <div className='h-[4px] w-full bg-gray-700'></div>
-            </div>
+        <div>
+          <span className="text-2xl font-semibold  rounded-t-2xl text-white py-1 px-1.5 mb-[1px] bg-gray-700">Follow US</span>
+        </div>
+        <div className='h-[4px] w-full bg-gray-700'></div>
+      </div>
 
       {/* Social Media Links */}
       <ul className='space-y-4 p-6'>
@@ -90,7 +90,7 @@ const FollowSideBar = () => {
               >
                 {link.followBtn || 'Follow'}
               </a>
-              
+
             </li>
           );
         })}

@@ -5,8 +5,8 @@ import MainSidebar from './mainSec/mainSidebar.jsx';
 
 const MainContent = () => {
     return (
-        <div className='relative'>
-            <div className='flex flex-row w-[70%] lg:flex-row gap-4'>
+        <div className='relative container mx-auto'>
+            <div className='flex flex-row w-[70%] lg:flex-row gap-4 '>
                 <MainFirst />
                 
             </div>

@@ -63,9 +63,9 @@ export default function mainSecond() {
                 </div>
                 <div className='flex flex-col gap-4'>
                     {recentArticles.map((article, index) => (
-                        <div key={index} className='{`${article.isFeatured ? "bg-gray-100" : "bg-white"} p-2 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 relative` }>"}'>
-                            <div className='flex gap-8 '>
-                                <img className='w-[30%] h-full object-cover transition-transform duration-500 cursor-pointer hover:scale-105' src={article.imageUrl} alt={article.title} />
+                        <div key={index} className='{`${article.isFeatured ? "bg-gray-100" : "bg-white"} p-2 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 relative ` }>"}'>
+                            <div className='flex gap-8 group overflow-hidden'>
+                                <img className='w-[30%] h-full object-cover transition-transform duration-500 cursor-pointer group-hover:scale-105' src={article.imageUrl} alt={article.title} />
 
                                 <div className='top-2 left-4 '>
                                     <span className='font-bold text-xs uppercase tracking-wider text-white bg-black px-2 py-1 inline-block mb-2 self-start rounded-full mt-1'>{article.tag}</span>
